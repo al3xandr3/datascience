@@ -1,3 +1,9 @@
+# Python
+admin.py
+*.pyc
+*.p
+*.df
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
