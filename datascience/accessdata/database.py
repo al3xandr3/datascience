@@ -22,7 +22,8 @@ class Postgres(object):
             
         Example
         -------
-        """             
+        >>> pg = Postgres({'host': '<11.111.11.1>', 'database': '<db>', 'port': 5432, 'user': '<user>', 'password': '<password>'})
+        """                    
         self.conn = None
         self.cursor = None
 
@@ -107,7 +108,8 @@ class Postgres(object):
 
 
 if __name__ == "__main__":
-     
+     pg = Postgres({'host': '<11.111.11.1>', 'database': '<db>', 'port': 5432, 'user': '<user>', 'password': '<password>'})
+
      # query     
      q = pg.query("select * from <table> limit 10;")
      for row in q.fetchall():
