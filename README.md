@@ -1,31 +1,35 @@
 
-# Data Science
+![Data Science](https://media.licdn.com/media/p/7/005/05b/28e/09d94fd.png "Data Science")
 
 Tools for Data Science
+
 
 ## Use Case
 
 1. Get data
-1. label / clean
-1. build model
-1. validate model accuracy
-1. viz
+1. Transform / label / clean
+1. Build model
+1. Validate model accuracy
+1. Visualization 
 
 
 ## Structure
 
-- datascience/
+**applications/** contains a end-to-end use cases of applying the lib.
+
+**datascience/** contains:
+
 -   accessdata - accessing the data, databases, json, scraping
--   blending - adding atributes to data, labeling
+-   blending - adding attributes to data, labelling
 -   cleansing - cleaning data, filling in missing values 
--   modeling - regression, decision tree, simulations
--   validation - validating precision of modeling
+-   modelling - regression, decision tree, simulations
+-   validation - validating precision of modelling
 -   visualizing - visualizations
--   utils - other usefull functions
-- applications/ - end-to-end use cases
+-   utils - other useful functions
+
 
 
 ### Guidelines
 
 - Pandas DataFrame as the standard data representation
-- Common interfaces between different algols
+- Common interfaces between different algol’s
