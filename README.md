@@ -1,10 +1,7 @@
 
-![Data Science](https://media.licdn.com/media/p/7/005/05b/28e/09d94fd.png "Data Science")
+![Data Science](https://media.licdn.com/media/p/7/005/05b/28e/09d94fd.png "Data Science" )
 
-Tools for Data Science
-
-
-## Use Case
+## Tools for Data Science
 
 1. Get data
 1. Transform / label / clean
