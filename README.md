@@ -12,7 +12,7 @@
 
 ## Structure
 
-**applications/** contains a end-to-end use cases of applying the lib.
+**applications/** contains end-to-end use cases of applying the lib.
 
 **datascience/** contains:
 

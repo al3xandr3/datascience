@@ -1,6 +1,7 @@
 
 import pandas as pd
 
+
 def linear_fit (data_ar):
     import statsmodels.api as sm
     import pandas as pd

@@ -3,6 +3,8 @@ admin.py
 *.pyc
 *.p
 *.df
+*.dot
+*.png
 
 # Windows image file caches
 Thumbs.db
